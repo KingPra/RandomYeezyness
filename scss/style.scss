@@ -1,0 +1,23 @@
+/* Include Foundation */
+@import 'node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+body {
+    background-color: green;
+}
+
+.quote__container {
+  text-align: center;
+  color: white
+}
+
+.quote__button {
+  display: flex;
+  margin: 0 auto;
+  padding: 2%;
+  background: white;
+  border: 1px black solid;
+  border-radius: 5px;
+}
